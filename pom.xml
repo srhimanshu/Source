@@ -24,7 +24,7 @@
 						<groups>${testngGroups}</groups>
 						<argLine>-Xms1024m -Xmx2048m</argLine>
 						<suiteXmlFiles>
-							<suiteXmlFile>/home/runner/work/Source/Source/src/test/resources/testng.xml</suiteXmlFile>
+							<suiteXmlFile>/home/softraw/Documents/softraw/Source/src/test/resources/testng.xml</suiteXmlFile>
 						</suiteXmlFiles>
 						<parallel>methods</parallel>
 						<threadCount>${num.threads}</threadCount>
