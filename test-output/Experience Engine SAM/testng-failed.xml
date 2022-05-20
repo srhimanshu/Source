@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Experience Engine SAM]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="Overlay_Prod_Env(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="version" value="97.0"/>
+    <parameter name="platform" value="Windows 11"/>
+    <classes>
+      <class name="prod_env.Overlay_Prod_Env">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="screen"/>
+        </methods>
+      </class> <!-- prod_env.Overlay_Prod_Env -->
+    </classes>
+  </test> <!-- Overlay_Prod_Env(failed) -->
+  <test thread-count="1" parallel="tests" name="Video_Prod_Env(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="version" value="97.0"/>
+    <parameter name="platform" value="Windows 11"/>
+    <classes>
+      <class name="prod_env.Video_Prod_Env">
+        <methods>
+          <include name="screen"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- prod_env.Video_Prod_Env -->
+    </classes>
+  </test> <!-- Video_Prod_Env(failed) -->
+</suite> <!-- Failed suite [Experience Engine SAM] -->
