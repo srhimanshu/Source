@@ -10,48 +10,5 @@
 		</classes>
 	</test>
 
-	 <test name="Video_Dev_Env">
-		<parameter name="browser" value="Chrome"/>
-		<parameter name="version" value="97.0"/>
-		<parameter name="platform" value="Windows 11"/>
-		<classes>
-			<class name="dev_env.Video_Dev_Env"/>
-		</classes>
-	</test>
 	
-	 <test name="Overlay_Prod_Env">
-		<parameter name="browser" value="Chrome"/>
-		<parameter name="version" value="97.0"/>
-		<parameter name="platform" value="Windows 11"/>
-		<classes>
-			<class name="prod_env.Overlay_Prod_Env"/>
-		</classes>
-	</test> 
-
-	<test name="Video_Prod_Env">
-		<parameter name="browser" value="Chrome"/>
-		<parameter name="version" value="97.0"/>
-		<parameter name="platform" value="Windows 11"/>
-		<classes>
-			<class name="prod_env.Video_Prod_Env"/>
-		</classes>
-	</test> 
-	
-	<test name="Overlay_Stg_Env">
-		<parameter name="browser" value="Chrome"/>
-		<parameter name="version" value="97.0"/>
-		<parameter name="platform" value="Windows 11"/>
-		<classes>
-			<class name="staging_env.Overlay_Stg_Env"/>
-		</classes>
-	</test>
-
-	<test name="Video_Stg_Env">
-		<parameter name="browser" value="Chrome"/>
-		<parameter name="version" value="97.0"/>
-		<parameter name="platform" value="Windows 11"/>
-		<classes>
-			<class name="staging_env.Video_Stg_Env"/>
-		</classes>
-	</test> 
 </suite>
