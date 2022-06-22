@@ -6,9 +6,5 @@
             <class name="Distribution.StgDistribution"/>
         </classes>
     </test> <!-- Test -->
-    <test thread-count="1" name="StgOverlay">
-        <classes>
-            <class name="Overlay.StgOverlay"/>
-        </classes>
-    </test> <!-- Test -->
+    
 </suite> <!-- Suite -->
